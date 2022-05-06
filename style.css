@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+span {
+  font-family: "Material icons";
+}
+.logo {
+  width: 80px;
+}
+button {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 3px 22px;
+  border-radius: 15px;
+  border: 2px solid rgb(188, 188, 223);
+  box-shadow: 2px 2px 10px gray;
+  background-color: rgb(186, 182, 182);
+}
+button:hover {
+  background-color: whitesmoke;
+}
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header1 a:hover {
+  color: rgb(134, 105, 60);
+}
+.listitem {
+  display: flexbox;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+  padding: 20px;
+  width: 20%;
+  color: rgb(229, 224, 206);
+  list-style: none;
+  text-align: center;
+}
+nav {
+  width: 80%;
+  list-style-type: none;
+  text-align: center;
+  display: inline-flex;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1 {
+  background-color: rgb(49, 32, 3);
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: rgba(231, 225, 189, 0.775);
+  scrollbar-darkshadow-color: azure;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h2 {
+  font-size: 1.4em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.775);
+  background-color: rgb(207, 187, 153);
+  padding: 20px;
+  margin: 12px;
+}
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url("https://tripin.travel/wp-content/uploads/2018/12/museo-franklin-rawson-san-juan-3-1024x276.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+  border: 2px solid rgb(188, 188, 223);
+  box-shadow: 2px 2px 10px gray;
+}
+p1 {
+  text-align: rights;
+  contain: content;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  float: left;
+  padding: 10px 40px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  border: 2px solid rgb(188, 188, 223);
+  box-shadow: 2px 2px 10px gray;
+}
+
+.edificio1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  padding: 13px;
+  margin: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50px;
+
+  box-shadow: 1px 2px 54px rgba(231, 225, 189, 0.775);
+  float: right;
+}
+h3 {
+  color: wheat;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p2 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.8em;
+}
+footer {
+  background-color: rgb(49, 32, 3);
+  padding: 2px;
+  margin: 0px;
+}
