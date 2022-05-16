@@ -14,13 +14,9 @@ span {
   width: 80px;
 }
 button {
-  font-size: 1.3em;
-  font-weight: bold;
-  padding: 3px 22px;
-  border-radius: 15px;
-  border: 2px solid rgb(188, 188, 223);
-  box-shadow: 2px 2px 10px gray;
-  background-color: rgb(186, 182, 182);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 button:hover {
   background-color: whitesmoke;
@@ -38,7 +34,7 @@ button:hover {
   align-items: center;
   gap: 8px;
   display: inline-flex;
-  padding: 20px;
+  padding: 0px;
   width: 20%;
   color: rgb(229, 224, 206);
   list-style: none;
